@@ -1,0 +1,104 @@
+Build "Xener Home" – Smart Energy Tracker & Saver
+You're tasked with building a responsive and futuristic web application called Xener Home, which tracks household electricity usage and provides real-time AI-powered savings tips. The app must be optimized for Android and iOS via webview/wrapper tools like Capacitor.js or Flutter WebView for future packaging.
+
+✅ Core Requirements:
+📥 User Inputs:
+Login (Custom login or via Gmail)
+
+Appliance details:
+
+Appliance name, type, specs
+
+Star rating
+
+Power rating (Watts)
+
+Age of appliance (Years)
+
+Usage patterns:
+
+Duration and time of usage (e.g., 3 hrs/day, 6PM–9PM)
+
+Ambient parameters (temp/humidity for analysis)
+
+Tariff details:
+
+₹/kWh cost
+
+Load sanctioned (in kW), connection type (single/three phase)
+
+Past electricity bill:
+
+Upload as image (from gallery) or PDF
+
+OCR should auto-extract total units consumed, cost, meter ID, consumer name, history if present
+
+Fallback: If OCR fails, prompt user to enter details manually
+
+📊 Periodic Data:
+Monthly usage records (either input or extracted from bill image)
+
+Bill history trends (optional if available in uploaded bills)
+
+Load factor, average daily usage
+
+📈 Output Features:
+AI-generated custom savings plan based on appliance data and usage
+
+Daily/weekly energy-saving tips (e.g., "Run AC during off-peak hours to save ₹xx/day")
+
+Graphs and charts:
+
+Appliance-wise consumption breakdown
+
+Usage pattern vs optimal pattern
+
+Predictive next-month bill
+
+Notifications/alerts:
+
+Excess usage alerts
+
+“Ghost load” detection (e.g., idle appliances)
+
+Gamified progress indicators:
+
+Daily streaks, energy score, CO2 saved, ₹ saved
+
+Badges: “Eco Ninja”, “1-Unit Warrior”, etc.
+
+🎨 UI/UX Guidelines:
+Theme: Gradient of green (#00c853) and white (#ffffff) with dark text for readability
+
+UI must be responsive across screen sizes (mobile-first design)
+
+Minimalist design with animated energy icons, eco-meter progress bars, etc.
+
+Dashboard tiles: “Today’s Usage”, “Top Consuming Appliance”, “Your Tips”, “Savings Score”
+
+Modular layout for login, bill upload, analytics, and tips screen
+
+🧠 Tech Suggestions:
+Framework: React.js / Next.js or Vue.js
+
+UI Library: TailwindCSS or Material UI for fast responsive design
+
+Charting: Chart.js or ECharts
+
+OCR: Tesseract.js for image/PDF bill reading
+
+Backend: Firebase/Auth + Firestore or Supabase
+
+AI Engine: Use Python/Flask backend or integrated Node.js with OpenAI/Gemini for recommendations
+
+Mobile Packaging: Capacitor.js or Flutter WebView (later) for Android/iOS app conversion
+
+⚙️ Future Upgrade Scope:
+Smart meter integration (via API/Bluetooth)
+
+Regional tariff updates
+
+Compare with neighborhood energy usage
+
+Referral reward program
+
